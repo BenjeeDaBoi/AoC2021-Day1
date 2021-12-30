@@ -32,9 +32,10 @@ def calcDepthMeasureIncrements(depthMeasures):
 def calcThreeWaysDepthMeasureIncrements(depthMeasures):
     
     depthIncreases = 0
-    for i in range(0, len(depthMeasures) - 2):
+    depthMeasures[0] = depthMeasures[0] + depthMeasures[1] + depthMeasures[2] # Get rid of 2000 double if statements here
+    for i in range(1, len(depthMeasures) - 2):
         depthMeasures[i] = depthMeasures[i] + depthMeasures[i+1] + depthMeasures[i+2]
-        if ((i > 0) and (depthMeasures[i] > depthMeasures[i-1])):
+        if (depthMeasures[i] > depthMeasures[i-1]):
             depthIncreases = depthIncreases + 1
 
     return depthIncreases
