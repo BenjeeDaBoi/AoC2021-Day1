@@ -5,6 +5,6 @@ Written in Python 3, as a challenge to learn a new language.
 
 ### Disclaimer
 
-Solutions might not be optimal. Solving those puzzles are for fun and to learn new things.
-They do not need use the most optimal code or algorithm.
-The goal is to solve the problems somewhat efficiently and to have fun.
+Solutions might not be optimal. Solving those puzzles are for fun and to learn new things.  
+They do not need use the most optimal code or algorithm.  
+The goal is to solve the problems somewhat efficiently and to have fun.  
