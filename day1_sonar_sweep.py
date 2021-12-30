@@ -31,11 +31,10 @@ def calcDepthMeasureIncrements(depthMeasures):
 
 def calcThreeWaysDepthMeasureIncrements(depthMeasures):
     
-    newDepthMeasures = []
     depthIncreases = 0
     for i in range(0, len(depthMeasures) - 2):
-        newDepthMeasures.append(depthMeasures[i] + depthMeasures[i+1] + depthMeasures[i+2])
-        if ((i > 0) and (newDepthMeasures[i] > newDepthMeasures[i-1])):
+        depthMeasures[i] = depthMeasures[i] + depthMeasures[i+1] + depthMeasures[i+2]
+        if ((i > 0) and (depthMeasures[i] > depthMeasures[i-1])):
             depthIncreases = depthIncreases + 1
 
     return depthIncreases
