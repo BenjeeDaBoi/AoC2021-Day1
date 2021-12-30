@@ -1,4 +1,4 @@
-# AoC 2021 - Day 1
+# AoC 2021 - Day 1 (Sonar Sweep)
 
 This is a possible solution to [the 1st Day`s problem](https://adventofcode.com/2021/day/1)  of **Advent of Code 2021**.  
 Written in Python 3, as a challenge to learn a new language.
